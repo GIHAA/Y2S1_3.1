@@ -78,7 +78,8 @@ main > ul > a > li:active{
 
 li > i{
 
-    margin-left: 6px;
+    margin-left: 10px;
+    margin_right: 20px;
 }
 
 #animation{
@@ -88,4 +89,19 @@ li > i{
     position: absolute; 
     top: 0; 
     left: 0;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+    position: fixed;
+    width:100%;
+    height:30px;
+    bottom:0;
+}
+footer > a {
+    text-decoration: none;
+    color:#B25B85;
 }
